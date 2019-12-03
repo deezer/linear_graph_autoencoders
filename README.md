@@ -1,4 +1,4 @@
-## Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks
+## Linear Graph Autoencoders
 
 This repository provides Python code to reproduce experiments from the article [Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks](https://arxiv.org/pdf/1910.00942.pdf) presented at the NeurIPS 2019 Workshop on Graph Representation Learning. 
 
