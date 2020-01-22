@@ -2,11 +2,13 @@
 
 This repository provides Python code to reproduce experiments from the article [Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks](https://arxiv.org/pdf/1910.00942.pdf) presented at the NeurIPS 2019 Workshop on Graph Representation Learning. 
 
-We release Tensorflow implementations of the following **two graph embedding models** from the paper:
- - *Linear Graph Autoencoders*
- - *Linear Graph Variational Autoencoders*
+*Update: an extended conference version of this article is now available here: [Simple and Effective Graph Autoencoders with One-Hop Linear Models](https://arxiv.org/pdf/2001.07614.pdf).*
 
-together with standard *Graph Autoencoders (AE)* and *Graph Variational Autoencoders (VAE)* models (with 2-layer or 3-layer Graph Convolutional Networks encoders) from [Kipf and Welling (2016)](https://arxiv.org/pdf/1611.07308.pdf). 
+We release Tensorflow implementations of the following **two graph embedding models** from the paper:
+ - Linear Graph Autoencoders
+ - Linear Graph Variational Autoencoders
+
+together with standard Graph Autoencoders (AE) and Graph Variational Autoencoders (VAE) models (with 2-layer or 3-layer Graph Convolutional Networks encoders) from [Kipf and Welling (2016)](https://arxiv.org/pdf/1611.07308.pdf). 
 
 We evaluate all models on the **link prediction** and **node clustering** tasks introduced in the paper. We provide the **Cora**, **Citeseer** and **Pubmed** datasets in the `data` folder, and refer to section 4 of the paper for direct link to the 8 additional datasets used in our experiments.
 
