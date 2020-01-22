@@ -10,7 +10,7 @@ We release Tensorflow implementations of the following **two graph embedding mod
 
 together with standard Graph Autoencoders (AE) and Graph Variational Autoencoders (VAE) models (with 2-layer or 3-layer Graph Convolutional Networks encoders) from [Kipf and Welling (2016)](https://arxiv.org/pdf/1611.07308.pdf). 
 
-We evaluate all models on the **link prediction** and **node clustering** tasks introduced in the paper. We provide the **Cora**, **Citeseer** and **Pubmed** datasets in the `data` folder, and refer to section 4 of the paper for direct link to the 8 additional datasets used in our experiments.
+We evaluate all models on the **link prediction** and **node clustering** tasks introduced in the paper. We provide the **Cora**, **Citeseer** and **Pubmed** datasets in the `data` folder, and refer to section 4 of the paper for direct link to the additional datasets used in our experiments.
 
 Our code builds upon Thomas Kipf's [original Tensorflow implementation](https://github.com/tkipf/gae) of standard Graph AE/VAE.
 
