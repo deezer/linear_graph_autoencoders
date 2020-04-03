@@ -2,7 +2,7 @@
 
 This repository provides Python code to reproduce experiments from the article [Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks](https://arxiv.org/pdf/1910.00942.pdf) presented at the NeurIPS 2019 Workshop on Graph Representation Learning. 
 
-*Update: an extended conference version of this article is now available here: [Simple and Effective Graph Autoencoders with One-Hop Linear Models](https://arxiv.org/pdf/2001.07614.pdf).*
+***Update**: an extended conference version of this article is now available here: [Simple and Effective Graph Autoencoders with One-Hop Linear Models](https://arxiv.org/pdf/2001.07614.pdf).*
 
 We release Tensorflow implementations of the following **two graph embedding models** from the paper:
  - Linear Graph Autoencoders
@@ -148,7 +148,9 @@ Notes:
 
 ## Cite
 
-Please cite our paper(s) if you use this code in your own work:
+Please cite our paper(s) if you use this code in your own work.
+
+**1 -** Regarding linear graph AE and VAE:
 
 ```BibTeX
 @misc{salha2019keep,
@@ -159,6 +161,18 @@ Please cite our paper(s) if you use this code in your own work:
 }
 ```
 
+or the extended conference version:
+
+```BibTeX
+@article{salha2020simple,
+  title={Simple and Effective Graph Autoencoders with One-Hop Linear Models},
+  author={Salha, Guillaume and Hennequin, Romain and Vazirgiannis, Michalis},
+  journal={arXiv preprint arXiv:2001.07614},
+  year={2020}
+}
+```
+
+**2 -** Regarding the k-core framework for scalable graph AE and VAE
 ```BibTeX
 @inproceedings{salha2019degeneracy,
   title={A Degeneracy Framework for Scalable Graph Autoencoders},
