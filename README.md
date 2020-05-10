@@ -18,9 +18,12 @@ Our code builds upon Thomas Kipf's [original Tensorflow implementation](https://
 
 #### Scaling-Up Graph AE and VAE
 
-Graph AE and VAE training has a quadratic time complexity w.r.t. the number of nodes in the graph. In order to **scale graph autoencoders to large graphs** with millions of nodes and egdes, we also provide an implementation of our framework from the article [A Degeneracy Framework for Scalable Graph Autoencoders](https://arxiv.org/pdf/1902.08813.pdf), published in the proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019).
+Standard Graph AE and VAE models suffer from scalability issues. In order to scale them to **large graphs** with millions of nodes and egdes, we also provide an implementation of our framework from the article [A Degeneracy Framework for Scalable Graph Autoencoders](https://arxiv.org/pdf/1902.08813.pdf) (IJCAI 2019).
 
-In this paper, we propose to train the graph AE/VAE only from a dense subset of nodes, namely the [k-core or k-degenerate](https://networkx.github.io/documentation/stable/reference/algorithms/core.html) subgraph, instead of using the entire graph. Then, we propagate embedding representations to the remaining nodes using faster heuristics. We argue in the IJCAI paper that such strategy can significantly improve speed and scalability while preserving good performance.
+In this paper, we propose to train the graph AE/VAE only from a dense subset of nodes, namely the [k-core or k-degenerate](https://networkx.github.io/documentation/stable/reference/algorithms/core.html) subgraph, instead of using the entire graph. Then, we propagate embedding representations to the remaining nodes using faster heuristics, which significantly improves scalability.
+
+***Update**: in [this repo](https://github.com/deezer/fastgae), we provide an implementation of **FastGAE**, another (more effective) method from our group to scale Graph AE and VAE.*
+
 
 ![Degeneracy Framework](figures/ijcaisummary.png)
 
@@ -150,7 +153,7 @@ Notes:
 
 Please cite our paper(s) if you use this code in your own work.
 
-**1 -** Regarding linear graph AE and VAE:
+NeurIPS 2019 workshop version:
 
 ```BibTeX
 @misc{salha2019keep,
@@ -161,7 +164,7 @@ Please cite our paper(s) if you use this code in your own work.
 }
 ```
 
-or the extended conference version:
+and/or the extended conference version:
 
 ```BibTeX
 @article{salha2020simple,
@@ -169,15 +172,5 @@ or the extended conference version:
   author={Salha, Guillaume and Hennequin, Romain and Vazirgiannis, Michalis},
   journal={arXiv preprint arXiv:2001.07614},
   year={2020}
-}
-```
-
-**2 -** Regarding the k-core framework for scalable graph AE and VAE
-```BibTeX
-@inproceedings{salha2019degeneracy,
-  title={A Degeneracy Framework for Scalable Graph Autoencoders},
-  author={Salha, Guillaume and Hennequin, Romain and Tran, Viet Anh and Vazirgiannis, Michalis},
-  booktitle={28th International Joint Conference on Artificial Intelligence (IJCAI)},
-  year={2019}
 }
 ```
