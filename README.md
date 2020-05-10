@@ -18,11 +18,9 @@ Our code builds upon Thomas Kipf's [original Tensorflow implementation](https://
 
 #### Scaling-Up Graph AE and VAE
 
-Standard Graph AE and VAE models suffer from scalability issues. In order to scale them to **large graphs** with millions of nodes and egdes, we also provide an implementation of our framework from the article [A Degeneracy Framework for Scalable Graph Autoencoders](https://arxiv.org/pdf/1902.08813.pdf) (IJCAI 2019).
+Standard Graph AE and VAE models suffer from scalability issues. In order to scale them to **large graphs** with millions of nodes and egdes, we also provide an implementation of our framework from the article [A Degeneracy Framework for Scalable Graph Autoencoders](https://arxiv.org/pdf/1902.08813.pdf) (IJCAI 2019). In this paper, we propose to train the graph AE/VAE only from a dense subset of nodes, namely the [k-core or k-degenerate](https://networkx.github.io/documentation/stable/reference/algorithms/core.html) subgraph. Then, we propagate embedding representations to the remaining nodes using faster heuristics.
 
-In this paper, we propose to train the graph AE/VAE only from a dense subset of nodes, namely the [k-core or k-degenerate](https://networkx.github.io/documentation/stable/reference/algorithms/core.html) subgraph, instead of using the entire graph. Then, we propagate embedding representations to the remaining nodes using faster heuristics, which significantly improves scalability.
-
-***Update**: in [this repo](https://github.com/deezer/fastgae), we provide an implementation of **FastGAE**, another (more effective) method from our group to scale Graph AE and VAE.*
+***Update**: in [this other repository](https://github.com/deezer/fastgae), we provide an implementation of **FastGAE**, a new (and more effective) method from our group to scale Graph AE and VAE.*
 
 
 ![Degeneracy Framework](figures/ijcaisummary.png)
