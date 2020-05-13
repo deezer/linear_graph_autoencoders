@@ -149,7 +149,7 @@ Notes:
 
 ## Cite
 
-Please cite our paper(s) if you use this code in your own work.
+**1** - Please cite the following paper(s) if you use linear graph AE/VAE code in your own work.
 
 NeurIPS 2019 workshop version:
 
@@ -172,3 +172,13 @@ and/or the extended conference version:
   year={2020}
 }
 ```
+
+**2** - Please cite the following paper if you use the k-core framework for scalability in your own work.
+
+```BibTeX
+@inproceedings{salha2019degeneracy,
+  title={A Degeneracy Framework for Scalable Graph Autoencoders},
+  author={Salha, Guillaume and Hennequin, Romain and Tran, Viet Anh and Vazirgiannis, Michalis},
+  booktitle={28th International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2019}
+}
