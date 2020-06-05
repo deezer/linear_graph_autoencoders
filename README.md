@@ -165,10 +165,10 @@ NeurIPS 2019 workshop version:
 and/or the extended conference version:
 
 ```BibTeX
-@article{salha2020simple,
+@inproceedings{salha2020simple,
   title={Simple and Effective Graph Autoencoders with One-Hop Linear Models},
   author={Salha, Guillaume and Hennequin, Romain and Vazirgiannis, Michalis},
-  journal={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)},
+  booktitle={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)},
   year={2020}
 }
 ```
