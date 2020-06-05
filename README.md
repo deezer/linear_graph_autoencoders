@@ -2,7 +2,7 @@
 
 This repository provides Python code to reproduce experiments from the article [Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks](https://arxiv.org/pdf/1910.00942.pdf) presented at the NeurIPS 2019 Workshop on Graph Representation Learning. 
 
-***Update**: an extended conference version of this article is now available here: [Simple and Effective Graph Autoencoders with One-Hop Linear Models](https://arxiv.org/pdf/2001.07614.pdf).*
+***Update**: an extended conference version of this article is now available here: [Simple and Effective Graph Autoencoders with One-Hop Linear Models](https://arxiv.org/pdf/2001.07614.pdf). (accepted at ECML-PKDD 2020)*
 
 We release Tensorflow implementations of the following **two graph embedding models** from the paper:
  - Linear Graph Autoencoders
@@ -168,7 +168,7 @@ and/or the extended conference version:
 @article{salha2020simple,
   title={Simple and Effective Graph Autoencoders with One-Hop Linear Models},
   author={Salha, Guillaume and Hennequin, Romain and Vazirgiannis, Michalis},
-  journal={arXiv preprint arXiv:2001.07614},
+  journal={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)},
   year={2020}
 }
 ```
