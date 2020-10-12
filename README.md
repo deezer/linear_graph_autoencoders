@@ -1,6 +1,6 @@
 # Linear Graph Autoencoders
 
-This repository provides Python code to reproduce experiments from the article [Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks](https://arxiv.org/pdf/1910.00942.pdf) presented at the NeurIPS 2019 Workshop on Graph Representation Learning. 
+This repository provides Python code to reproduce experiments from the article [Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks](https://arxiv.org/pdf/1910.00942.pdf) presented at the **NeurIPS 2019** Workshop on Graph Representation Learning. 
 
 
 ***Update**: an extended conference version of this article is now available here: [Simple and Effective Graph Autoencoders with One-Hop Linear Models](https://arxiv.org/pdf/2001.07614.pdf) (accepted at **ECML-PKDD 2020**).*
